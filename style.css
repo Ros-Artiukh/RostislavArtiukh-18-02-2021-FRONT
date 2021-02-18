@@ -1,0 +1,47 @@
+#wrapper {
+    text-align: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#fillGuests,#guests {
+    width: 100%;
+    min-height: 100px;
+    max-width: 450px;
+    border: 1px solid black;
+    margin: 70px auto;
+}
+
+.textFill, .textGuests {
+    position: relative;
+    float: left;
+    top: -13px;
+    background: white;
+    padding: 3px;
+    left: 10px;
+}
+#inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0px 0px 0px;
+}
+
+#inputs input {
+    margin: 0px 70px 5px -65px;
+}
+#texts div {
+    text-align: left;
+    position: relative;
+    left: -40px;
+    top: 10px;
+    margin-bottom: 8px;
+    height: auto;
+}
+#texts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+div span {
+    margin-left: 6px;
+}
